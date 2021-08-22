@@ -1,0 +1,86 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: rgba(33, 33, 33, 1);
+}
+.header {
+    font-weight: 500;
+    font-size: 14px; 
+}
+button {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+button:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(33, 150, 243, 1);
+}
+button:focus  {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(33, 150, 243, 1);
+}
+.link {
+    color: rgba(33, 33, 33, 1);
+    text-decoration: none
+}
+.link:hover {
+    color: rgba(33, 150, 243, 1);
+}
+.link:focus {
+    color: rgba(33, 150, 243, 1);
+}
+.logo {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+}
+.logo:visited {
+    color: rgba(33, 33, 33, 1);
+
+}
+.index-main-headline {
+    font-weight: 900;
+    font-size: 44px;
+    color: rgba(255, 255, 255, 1);
+}
+.index-other-headlines {
+    font-weight: 700;
+    font-size: 36px;
+}
+.index-table-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+.index-table-content {
+    font-size: 14px;
+    color: rgba(117, 117, 117, 1);
+}
+.index-img-title {
+    font-weight: 500;
+    font-size: 16px;
+}
+.index-img-description {
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+}
+.portfolio--img-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+.portfolio-img-description {
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+}
+.footer-font-style {
+    font-style: normal;
+}
+.footer-font-size-color {
+    color: rgba(255, 255, 255, 0.6); 
+    font-size: 14px; 
+}
+.footer-mail {
+    text-decoration-line: underline;
+}
+
