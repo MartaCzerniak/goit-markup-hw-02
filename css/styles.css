@@ -1,6 +1,15 @@
+:root {
+    --main-bg-color: rgb(255, 255, 255); 
+    --blue-feature: rgb(33, 150, 243);
+    --footer-bg-color: rgb(47, 48, 58);
+    --main-txt-color: rgb(33, 33, 33);
+    --white-txt:rgb(255, 255, 255);
+    --footer-txt-contact: rgba(255, 255, 255, 0.6);
+    --main-grey: rgb(117, 117, 117);
+}
 body {
     font-family: "Roboto", sans-serif;
-    color: rgb(33, 33, 33)
+    color: var(--main-txt-color);
 }
 li {
     list-style: none;
@@ -13,27 +22,27 @@ button {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    padding: 6px 22px;
+    border-style: none;
+    border-radius: 4px;
 }
 button:hover, button:focus {
-    color: rgb(255, 255, 255);
-    background-color: rgb(33, 150, 243);
+    color: var(--white-txt);
+    background-color: var(--blue-feature);
 }
 .team-background-color {
-    background-color:rgb(245, 244, 250)
+    background-color:var(--main-bg-color);
 }
 
 .link {
-    color: rgb(33, 33, 33);
+    color: var(--main-txt-color);
     text-decoration: none
 }
-.link:hover {
-    color: rgb(33, 150, 243);
-}
-.link:focus {
-    color: rgb(33, 150, 243);
+.link:hover, .link:focus {
+    color: var(--blue-feature);
 }
 .logo {
-    color: rgb(33, 150, 243);
+    color: var(--blue-feature);
     text-decoration: none;
     font-family: "Raleway";
     font-weight: bold;
@@ -41,16 +50,16 @@ button:hover, button:focus {
     line-height: 36px;
 }
 .logo:visited {
-    color:rgb(33, 150, 243);
+    color:var(--blue-feature);
 
 }
 .index-div-under-heather-background-color {
-    background-color:rgb(47, 48, 58);
+    background-color:var(--footer-bg-color);
 }
 .index-main-headline {
     font-weight: 900;
     font-size: 44px;
-    color: rgb(255, 255, 255);
+    color: var(--white-txt);
 }
 .index-other-headlines {
     font-weight: 700;
@@ -62,14 +71,14 @@ button:hover, button:focus {
 }
 .index-table-content {
     font-size: 14px;
-    color: rgb(117, 117, 117);
+    color: var(--main-grey);
 }
 .index-img-title {
     font-weight: 500;
     font-size: 16px;
 }
 .index-img-description {
-    color: rgb(117, 117, 117);
+    color: var(--main-grey);
     font-size: 16px;
 }
 .portfolio-img-title {
@@ -77,20 +86,20 @@ button:hover, button:focus {
     font-size: 18px;
 }
 .portfolio-img-description {
-    color: rgb(117, 117, 117);
+    color: var(--main-grey);
     font-size: 16px;
 }
 .footer-background-color {
-    background-color: rgb(47, 48, 58);
+    background-color: var(--footer-bg-color);
 }
 .footer-font-color {
-    color: rgb(255, 255, 255);
+    color: var(--white-txt);
 }
 .footer-font-style {
     font-style: normal;
 }
 .footer-contact-color {
-    color: rgba(255, 255, 255, 0.6); 
+    color: var(--footer-txt-contact); 
     font-size: 14px; 
 }
 .footer-mail {
